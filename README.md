@@ -59,8 +59,10 @@ By following these steps, you can easily set up a virtual network in Azure, whic
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+![image](https://github.com/derekjonesaa/azure-network-protocols/assets/167825508/9b88c9ed-93ef-4336-9eed-94573f370ee7)
+
+
 </p>
 To ping an IP address, follow these steps:
 
@@ -76,15 +78,13 @@ To ping an IP address, follow these steps:
 
 6. Interpret the results: If you receive responses from the target IP address or hostname, it means the connection is successful. If the ping fails or times out, it suggests that the target IP address or hostname is not reachable or that there might be a network connectivity issue.
 
-Note: Some network setups or firewalls may block or prioritize ICMP traffic, which could result in inconsistent or no ping responses. In such cases, consider using other network troubleshooting tools or checking with your network administrator.
+Some network setups or firewalls may block or prioritize ICMP traffic, which could result in inconsistent or no ping responses. In such cases, consider using other network troubleshooting tools or checking with your network administrator.
 
-Pinging an IP address is a common method to test network connectivity and diagnose network issues. However, it's important to consider that a successful ping does not guarantee full network functionality, as certain protocols or services may still be blocked or inaccessible.
+
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+![image](https://github.com/derekjonesaa/azure-network-protocols/assets/167825508/40197c8d-1eb1-4c7f-baa8-fd2410360ca8)
+
+
+
+
