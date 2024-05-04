@@ -85,6 +85,26 @@ Some network setups or firewalls may block or prioritize ICMP traffic, which cou
 
 ![image](https://github.com/derekjonesaa/azure-network-protocols/assets/167825508/40197c8d-1eb1-4c7f-baa8-fd2410360ca8)
 
+To use Wireshark follow these steps:
 
+1. Install Wireshark: Download and install Wireshark from the official website (www.wireshark.org) compatible with your operating system.
+
+2. Launch Wireshark: Once installed, open Wireshark on your computer.
+
+3. Select a Network Interface: In the Wireshark interface, select the network interface you want to capture packets from. It could be Ethernet, Wi-Fi, or any other available interface.
+
+4. Start Capturing Packets: Click on the "Start" or "Capture" button to begin capturing network traffic on the selected interface.
+
+5. Analyze Packets: As packets are captured, you will see a live stream of network traffic in the Wireshark window. The captured packets will display various details like source and destination IP addresses, protocols, packet size, and more. You can filter and sort packets based on specific criteria.
+
+6. Filter Results: Use Wireshark's display filters to narrow down and focus on specific packets of interest. Filters can be set by protocol, source or destination IP address, port number, or other criteria.
+
+7. Analyze Packet Details: Click on individual packets in the Wireshark window to view detailed information about the packet, including protocol headers, payload data, and any errors or anomalies.
+
+8. Follow Streams and Conversation Analysis: Wireshark allows you to follow and analyze individual conversations or streams between specific source and destination IP addresses. This can be useful for identifying patterns or troubleshooting network issues.
+
+9. Save and Export Captured Data: You can save the captured packet data in various formats, including pcap (Wireshark's default format), CSV, or plain text. Exporting the data allows you to share it for further analysis or review.
+
+10. Stop Capturing: Once you have captured enough data or completed your analysis, click on the "Stop" or "Capture" button to stop capturing packets.
 
 
