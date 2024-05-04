@@ -32,8 +32,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>Actions and Observations</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+![image](https://github.com/derekjonesaa/configure-ad/assets/167825508/337595dc-a39e-42f6-a016-5160b7ed099c)
 
 Setting up an Azure virtual network involves the following steps:
 
