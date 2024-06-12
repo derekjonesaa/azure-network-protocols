@@ -39,4 +39,8 @@ Step 2: Remote Desktop into each "Virtual Machine". Go to --> VM1 settings --> c
 ![image](https://github.com/derekjonesaa/azure-network-protocols/assets/167825508/93e18a11-f84a-4447-9daa-c5acade2dc24)
 Step 3: While into VM1, download WireShark. Search "WireShark" on google --> click Wireshark's official site --> "Windows Installer (64-bit)" download --> Install WireShark and go through installation prompts --> Open WireShark --> click "Ethernet 2" --> next select "shark symbol" in upper left hand corner to start network traffic monitoring --> Filter out irrelevant network traffic via display filter bar (type "icmp" in filter bar to only see ping traffic).
 
+![image](https://github.com/derekjonesaa/azure-network-protocols/assets/167825508/149640dd-f95a-4641-a580-38d044a0d293)
+![image](https://github.com/derekjonesaa/azure-network-protocols/assets/167825508/41cce259-0f88-46d9-856e-676ea4342a85)
+![image](https://github.com/derekjonesaa/azure-network-protocols/assets/167825508/a7dd37fd-4956-42b4-a00c-4a9d94328ee1)
+Step 4: Go to VM2 on Azure Portal --> "overview" --> copy the "private IP address" --> Go to VM1 --> Search "PowerShell" in the start menu search bar & open it --> Type "ping -t" then paste VM2's private IP address into "PowerShell" to start a "perpetual ping" (WireShark will now show the two VMs pinging back and forth, allow the ping to continue). Pay attention to all of the data being communicated between both VMs on this step
 
