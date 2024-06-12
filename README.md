@@ -34,3 +34,9 @@ Step 1: Create two Vitrual Machines in Azure: Log into the Microsoft Azure Porta
 
 Step 2: Remote Desktop into each "Virtual Machine". Go to --> VM1 settings --> copy "public IP address" --> search "remote desktop connections" in start menu search bar --> Open "Remote Desktop Connection" & paste copied IP address from VM1 --> click connect --> Use the Username & Password created in step 1 to sign in to the VM. Repeat the same steps to log into VM2.
 
+![image](https://github.com/derekjonesaa/azure-network-protocols/assets/167825508/08b0bc8a-0eba-4726-9878-e6994d8a8c7f)
+![image](https://github.com/derekjonesaa/azure-network-protocols/assets/167825508/46bfc651-685a-4e42-bf39-bc6f04502def)
+![image](https://github.com/derekjonesaa/azure-network-protocols/assets/167825508/93e18a11-f84a-4447-9daa-c5acade2dc24)
+Step 3: While into VM1, download WireShark. Search "WireShark" on google --> click Wireshark's official site --> "Windows Installer (64-bit)" download --> Install WireShark and go through installation prompts --> Open WireShark --> click "Ethernet 2" --> next select "shark symbol" in upper left hand corner to start network traffic monitoring --> Filter out irrelevant network traffic via display filter bar (type "icmp" in filter bar to only see ping traffic).
+
+
