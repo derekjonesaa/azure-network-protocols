@@ -44,3 +44,7 @@ Step 3: While into VM1, download WireShark. Search "WireShark" on google --> cli
 ![image](https://github.com/derekjonesaa/azure-network-protocols/assets/167825508/a7dd37fd-4956-42b4-a00c-4a9d94328ee1)
 Step 4: Go to VM2 on Azure Portal --> "overview" --> copy the "private IP address" --> Go to VM1 --> Search "PowerShell" in the start menu search bar & open it --> Type "ping -t" then paste VM2's private IP address into "PowerShell" to start a "perpetual ping" (WireShark will now show the two VMs pinging back and forth, allow the ping to continue). Pay attention to all of the data being communicated between both VMs on this step
 
+![image](https://github.com/derekjonesaa/azure-network-protocols/assets/167825508/303d45c0-4130-42f6-9796-5f3855a9c238)
+![image](https://github.com/derekjonesaa/azure-network-protocols/assets/167825508/a425dd4e-09f6-4e54-ae03-1170ee992581)
+Step 5: Go back to Azure Portal --> type "Network Security Group" in the search bar (this is the VMs firewall) --> select "VM2-NSG" --> "Inbound security rules" under settings --> click "+ add" --> in the new pop up window change "protocol" to "ICMP" --> change "action" to "deny" --> change "Name" to "Deny_ICMP_Ping" --> Click "add" at bottom. *Notice how the ping cmd in PowerShell on VM1 done on step#4 is immediately halted due to being blocked by VM2's firewall thanks to the new inbound security rule you made. If you edit the rule to allow traffic, notice how the perpetual ping cmds successfully resume. *Press Ctrl+C to stop PowerShell ping
+
