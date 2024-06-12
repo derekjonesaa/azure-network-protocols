@@ -21,6 +21,21 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Windows 10 (21H2)
 - Ubuntu Server 20.04
 
+High-Level Steps
+
+Step 1: Create Virtual Machines
+
+Step 2: Remote Desktop into VMs
+
+Step 3: Install & Run WireShark
+
+Step 4: Test Connectivity Between VMs
+
+Step 5: Alter Network Security Group Settings
+
+Step 6: SSH into VM
+
+Step 7: Observe DHCP Traffic
 
 <h2>Actions and Observations</h2>
 
