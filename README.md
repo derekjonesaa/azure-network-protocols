@@ -29,5 +29,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 ![image](https://github.com/derekjonesaa/azure-network-protocols/assets/167825508/f3e6f991-d58f-4381-b421-cafa6792d9a1)
 Step 1: Create two Vitrual Machines in Azure: Log into the Microsoft Azure Portal with your Microsoft Account --> search "resource groups" in the search bar --> "create" resource group --> search "Virtual Machines" in the search bar --> "create" two Virtual Machines with the following OS: Windows 10 OS for VM1 & Ubuntu OS for VM2) --> Make sure both VMs are in the same "resource group". *When setting up the VMs remember the username and password that you use. You'll need this information later to remote desktop into the VMs. I recommend using the same login information for both VMs.
 
+![image](https://github.com/derekjonesaa/azure-network-protocols/assets/167825508/893878b4-b9ba-4553-9b62-073e8a650d85)
+![image](https://github.com/derekjonesaa/azure-network-protocols/assets/167825508/22b054cc-0092-43a4-8343-d198ec1c4ab9)
 
+Step 2: Remote Desktop into each "Virtual Machine". Go to --> VM1 settings --> copy "public IP address" --> search "remote desktop connections" in start menu search bar --> Open "Remote Desktop Connection" & paste copied IP address from VM1 --> click connect --> Use the Username & Password created in step 1 to sign in to the VM. Repeat the same steps to log into VM2.
 
